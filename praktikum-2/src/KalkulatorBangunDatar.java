@@ -11,7 +11,7 @@ public class KalkulatorBangunDatar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // ========== BAGIAN 1: PERSEGI PANJANG ==========
+        // ============ BAGIAN 1: PERSEGI PANJANG ============
         // Meminta input panjang bertipe double
         System.out.print("Masukkan Panjang Persegi Panjang: ");
         double panjang = sc.nextDouble();
@@ -27,7 +27,7 @@ public class KalkulatorBangunDatar {
         System.out.println("Luas Persegi Panjang: " + luasPersegiPanjang);
         System.out.println("Keliling Persegi Panjang: " + kelilingPersegiPanjang);
 
-        // ========== BAGIAN 2: LINGKARAN ==========
+        // ============ BAGIAN 2: LINGKARAN ============
         // Meminta input jari-jari lingkaran bertipe double
         System.out.print("Masukkan jari-jari lingkaran: ");
         double jariJari = sc.nextDouble();
