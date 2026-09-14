@@ -11,7 +11,7 @@ public class KalkulatorBangunDatar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // =========== BAGIAN 1: PERSEGI PANJANG ===========
+        // ========== BAGIAN 1: PERSEGI PANJANG ==========
         // Meminta input panjang bertipe double
         System.out.print("Masukkan Panjang Persegi Panjang: ");
         double panjang = sc.nextDouble();
@@ -39,8 +39,8 @@ public class KalkulatorBangunDatar {
         System.out.println("Luas Lingkaran: " + luasLingkaran);
         System.out.println("Keliling Lingkaran: " + kelilingLingkaran);
 
-        // =========== BAGIAN 3: CEK LUAS BESAR ==========
-        // Menyimpan status apakah luas persegi panjang tergolong besar (> 100)
+        // ========== BAGIAN 3: CEK LUAS BESAR ==========
+        // Menyimpan status apakah luas persegi panjang tergolong besar (>100)
         boolean luasBesar = luasPersegiPanjang > 100;
         System.out.print("Luas Besar (>100): " + luasBesar);
 
