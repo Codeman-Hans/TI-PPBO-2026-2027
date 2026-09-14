@@ -10,7 +10,7 @@ public class ScannerDemo {
         System.out.print("Masukkan umur: ");
         int umur = sc.nextInt();
 
-        System.out.println("Halo " + nama + ", umur Anda " + umur + "tahun.");
+        System.out.print("Halo " + nama + ", umur Anda " + umur + " tahun.");
 
     }
 }
