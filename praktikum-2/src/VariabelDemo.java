@@ -1,11 +1,15 @@
 public class VariabelDemo {
     public static void main(String[] args) {
-        int nilaiBulat = 9;
-        double nilaiDouble = nilaiBulat; // wildening otomatis
-        System.out.println("Wildening: " + nilaiDouble);
+        String nama = "Siti";
+        int umur = 20;
+        double tinggi = 165.5;
+        char golDarah = 'O';
+        boolean mahasiswaAktif = true;
 
-        double pecahan = 9.8;
-        int hasilCasting = (int) pecahan; // narrowing eksplisit
-        System.out.println("Narrowing: " + hasilCasting);
+        System.out.println("Nama: " + nama);
+        System.out.println("Umur: " + umur);
+        System.out.println("Tinggi: " + tinggi);
+        System.out.println("Golongan Darah: " + golDarah);
+        System.out.println("Aktif: " + mahasiswaAktif);
     }
 }
