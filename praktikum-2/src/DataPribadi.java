@@ -10,5 +10,4 @@ public class DataPribadi {
         System.out.println("inisial: " + inisial);
         System.out.println("status Mahasiswa Aktif: " + statusAktif);
     }
-
 }
