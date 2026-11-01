@@ -21,5 +21,15 @@ public class Buku {
     public int getTahunTerbit() {
         return tahunTerbit;
     }
+
+    // Setter Judul
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    // Setter Pengarang
+    public void setPengarang(String pengarang) {
+        this.pengarang = pengarang;
+    }
 }
 
