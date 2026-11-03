@@ -5,4 +5,9 @@ public class Mobil extends Kendaraan {
         super(merek, kecepatanMaks);
         this.jumlahPintu = jumlahPintu;
     }
+
+    public void tampilkanInfo() {
+        System.out.println("Merek          : " + merek);
+        System.out.println("Kecepatan Maks : " + kecepatanMaks + "km/jam");
+    }
 }

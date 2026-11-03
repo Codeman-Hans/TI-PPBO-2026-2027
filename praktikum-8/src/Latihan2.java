@@ -2,8 +2,7 @@ public class Latihan2 {
     public static void main(String[] args) {
         Mobil m = new Mobil("Toyota",180,4);
         System.out.println("======== Mobil ========");
-        System.out.println("Merek          : " + m.merek);
-        System.out.println("Kecepatan Maks : " + m.kecepatanMaks + "km/jam");
+        m.tampilkanInfo();
         System.out.println("Jumlah Pintu   : " + m.jumlahPintu);
 
         System.out.println();
