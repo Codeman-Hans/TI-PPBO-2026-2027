@@ -14,7 +14,7 @@ public class TugasDemo {
 
         System.out.println("\n=== DIREKTUR ===");
         dr.tampilkanData(); // Diwariskan lewat 2 tingkat
-        System.out.println("Tunjangan Jabatan : " + mgr.getTunjanganJabatan());
+        System.out.println("Tunjangan Jabatan : " + dr.getTunjanganJabatan());
         System.out.println("Tunjangan Saham   : " + dr.getTunjanganSaham());
 
         System.out.println("\n=== Uji Gaji Negatif ===");
